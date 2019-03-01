@@ -47,7 +47,7 @@ function mangopay_woocommerce_hide_dob_field_script() {
 	?>
 		<script type="text/javascript">
 			jQuery( document ).ready( function ( $ ) {
-				$( '#user_birthday_field input' ).val( 'March 01, 1990' );
+				$( '#user_birthday_field input' ).val( '<?php echo esc_html( date_i18n( get_option( 'date_format' ), '946684800' ) ); ?>' );
 			} );
 		</script>
 <?php
