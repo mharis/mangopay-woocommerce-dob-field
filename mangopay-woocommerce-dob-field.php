@@ -8,7 +8,7 @@
  * Author URI: https://hariszulfiqar.com
  *
  * @package Mangopay
- * @version 1.0.0
+ * @since 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
